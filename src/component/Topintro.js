@@ -26,16 +26,16 @@ const Topintro = () => {
             </div>
 
             <div className="nav-wrapper">
-                <a className="the_logo" href="">
+                <a className="the_logo" href="https://mehedi23.github.io/portfolio/">
                     <img src={Logo} alt="m tech logo" />
                 </a>
                 
 
                 <div className="nav_links">
-                    <a name="refresh" href="#">REFRESH</a>
-                    <a name="services" href="#">SERVICES</a>
-                    <a name="portfolio" href="#">PORTFOLIO</a>
-                    <a name="about_me" href="#">ABOUT ME</a>
+                    <a name="refresh" href="https://mehedi23.github.io/portfolio/">REFRESH</a>
+                    <a name="services" href="https://mehedi23.github.io/portfolio/#services">SERVICES</a>
+                    <a name="portfolio" href="https://mehedi23.github.io/portfolio/#portfolio">PORTFOLIO</a>
+                    <a name="about_me" href="https://mehedi23.github.io/portfolio/#about">ABOUT ME</a>
                 </div>
             </div>
         </section>
