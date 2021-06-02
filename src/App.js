@@ -1,5 +1,6 @@
 import './App.css';
 import Topintro from './component/Topintro';
+import Services from './component/Services';
 import curDot from 'cursor-dot';
 
 const cursor = curDot({
@@ -16,11 +17,20 @@ cursor.over("body", {
   zindex: 99999999
 });
 
+cursor.over(".or-color", {
+  color: "#F6AE2D",
+});
+
+cursor.over(".or-bg-color", {
+  background: "#F6AE2D"
+});
+
 
 function App() {
   return (
     <div>
       <Topintro/>
+      <Services/>
     </div>
   );
 }

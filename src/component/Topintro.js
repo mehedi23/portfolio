@@ -8,21 +8,23 @@ const Topintro = () => {
         <section id="top">
             <img className="top-bg-img" src={BgImg} alt="black-white"/>
 
-            <div className="top-summerice">
-                <h1 className="top-title-one">
-                    <div className="line"></div>
-                    WEB DESIGNS , DEVLOPMENT , DEPLOYMENT
-                </h1>
+            <div className="container">
+                <div className="top-summerice">
+                    <h1 className="top-title-one">
+                        <div className="line"></div>
+                        WEB DESIGNS , DEVLOPMENT , DEPLOYMENT
+                    </h1>
 
-                <h1 className="top-title-two">
-                    Reasons Why Meheb Is  Getting <br/> More Popular
-                </h1>
+                    <h1 className="top-title-two">
+                        Reasons Why Meheb Is  Getting <br/> More Popular
+                    </h1>
 
-                <p className="top-dicription">
-                    Once the brand strategy was sharp and real for everyone inside of the company, all the brand behavior
-                    started to roll out as stationary material. Once the brand strategy was sharp and real for everyone
-                    inside of the company,
-                </p>
+                    <p className="top-dicription">
+                        Once the brand strategy was sharp and real for everyone inside of the company, all the brand behavior
+                        started to roll out as stationary material. Once the brand strategy was sharp and real for everyone
+                        inside of the company,
+                    </p>
+                </div>
             </div>
 
             <div className="nav-wrapper">
